@@ -16,5 +16,5 @@
 
 # DEP PACKAGES
 apt -qq install --no-install-recommends --allow-unauthenticated -y \
-  build-essential python-catkin-tools python-pip dvi2ps dvipng binutils \
+  build-essential python3-catkin-tools python3-pip dvi2ps dvipng binutils \
   mesa-utils module-init-tools x-window-system ros-$ROS_DISTRO-python-orocos-kdl

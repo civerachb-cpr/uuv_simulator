@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(uuv_auv_control_allocator)
 
+set(CMAKE_CXX_STANDARD 17)
+
 find_package(catkin REQUIRED COMPONENTS
     std_msgs
     geometry_msgs
